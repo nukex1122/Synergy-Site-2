@@ -334,8 +334,8 @@ var theme = function () {
             function initialize() {
                 var mapOptions = {
                     scrollwheel: false,
-                    zoom: 12,
-                    center: new google.maps.LatLng(40.9807648, 28.9866516) // map coordinates
+                    zoom: 17,
+                    center: new google.maps.LatLng(28.7500749,77.1154765) // map coordinates
                 };
                 map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);
