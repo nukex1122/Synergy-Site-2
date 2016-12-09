@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('BebasNeue.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+.bes{
+  font-family: 'BebasNeue';
+}
+.title{
+  font-family: 'BebasNeue';
+  font-size: 80pt;
+  color: #F0565E;
+  margin: 0;
+}
+.vertical-alignf {
+    display: flex;
+    align-items: center;
+}
