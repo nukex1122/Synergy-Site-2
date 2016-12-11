@@ -9,14 +9,15 @@
 }
 .title{
   font-family: 'BebasNeue';
-  font-size: 80pt;
+  font-size: 75pt;
   color: #F0F1F2;
   margin: 0;
 }
 .titles{
-  position: relative;
-  top: 0;
-  transform:translateY(30%);
+  margin-top: -7%;
+}
+.abcd{
+  font-size: 1.1em;
 }
 .vertical-alignf {
     display: flex;
