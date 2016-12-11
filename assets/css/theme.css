@@ -86,6 +86,13 @@
 /* 1.2 - Preloader
 /* ========================================================================== */
 
+.logo-content{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+    width:100%;
+}
 #preloader {
     position: fixed;
     top: 0; bottom: 0;
