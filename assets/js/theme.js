@@ -198,7 +198,9 @@ var theme = function () {
             resizePage();
         },
         init: function () {
-            
+            var contentPlacement = $('.header').height() + 80;
+            $('.content-area').css('margin-top',contentPlacement);
+            console.log("fafafas");
             handlePreventEmptyLinks();
             handlePlaceholdem();
             handleBootstrapSelect();
