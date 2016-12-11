@@ -8,11 +8,26 @@
   font-family: 'BebasNeue';
 }
 .title{
-  font-family: 'BebasNeue';
-  font-size: 75pt;
+  font-family: 'Oswald';
+  font-size:70pt;
   color: #F0F1F2;
   margin: 0;
+  letter-spacing: 5px;
 }
+.tagliness{
+  letter-spacing: 15px;
+}
+@media only screen and (max-width: 425px) {
+    /* For mobile phones: */
+    .title {
+        font-size: 50pt;
+        letter-spacing: normal;
+    }
+    .tagliness{
+      letter-spacing: normal;
+    }
+}
+
 .titles{
   margin-top: -7%;
 }
