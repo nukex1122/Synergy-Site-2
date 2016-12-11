@@ -35,31 +35,33 @@
     <link href="assets/css/theme-2.css" rel="stylesheet">
 
     <link type="text/css" media="screen" rel="stylesheet" href="awwwards.css" />
-    <style>
-    .abcd{
-      font-size: 30pt;
-    }
-    .randtext{
-      font-size:1.5em
-    }
-    #main-slider .item {min-height: 1300px !important;}
-    @media only screen and (max-width: 425px) {
-        /* For mobile phones: */
-        .abcd{
-          font-size: 15pt;
-        }
-        .randtext{
-          font-size:1em
-        }
 
-        #main-slider .item {min-height: 600px !important;}
-    }
-
-    </style>
     <!--[if lt IE 9]>
     <script src="assets/plugins/iesupport/html5shiv.js"></script>
     <script src="assets/plugins/iesupport/respond.min.js"></script>
     <![endif]-->
+    <style>
+    .tagliness2{
+      letter-spacing: 2px;
+    }
+    .randtext{
+      font-size:1em;
+    }
+    #main-slider .item {min-height: 1300px;}
+    @media only screen and (max-width: 760px) {
+        /* For mobile phones: */
+
+        .tagliness2{
+          letter-spacing: normal;
+        }
+        .randtext{
+          font-size:1em;
+        }
+        #main-slider .item {min-height: 800px !important;}
+
+    }
+
+    </style>
 </head>
 <body id="home" class="wide body-light">
   <!-- Preloader -->
@@ -99,9 +101,9 @@
                         <li><a href="index.html#events">Events</a></li>
                         <li><a href="index.html#sponsors">Sponsors</a></li>
                         <li><a href="codewar.html">Code War</a></li>
-                        <li class="active"><a href="hackdtu.html">HackDTU</a></li>
+                        <li><a href="hackdtu.html">HackDTU</a></li>
                         <li><a href="quedar.html">Quedar</a></li>
-                        <li><a href="finquest.html">Finquest</a></li>
+                        <li class="active"><a href="finquest.html">Finquest</a></li>
                         <li><a href="index.html#location">Team</a></li>
                         <li><a href="index.html#location">Location</a></li>
                     </ul>
@@ -128,44 +130,28 @@
                         <div class="caption">
                           <div class="row text-center" style="height:55%;display:flex;	align-items: center;  text-align: center;  justify-content: center;flex-direction: column;">
                             <div id="particles-js"></div>
-
+                            <br /><br />
                             <div class="titles">
 
-                              <div class="title" data-animation = "lightSpeedIn" data-animation-delay = "200">HACK DTU</div><br />
-                              <div class= "tagliness" style="font-size:20pt;margin-top:-2%;color:#F0F1F2" data-animation="slideInUp" data-animation-delay = "400">
-                                  Create. Conquer.
+
+                              <div class="title" data-animation = "lightSpeedIn" data-animation-delay = "200">Quedar</div><br />
+                              <div class= "tagliness" style="font-size:20pt;margin-top:-2%;color:#F0F1F2" data-animation="slideInDown" data-animation-delay = "400">
+                                  Gain The Edge
+                              </div>
+                              <div class= "tagliness2" style="font-size:20pt;margin-top:-2%;color:#F0F1F2" data-animation="slideInUp" data-animation-delay = "400">
+                                  Learner Today, Creator Tomorrow
                               </div>
                               <br />
                               <button name="submit" class="btn btn-theme" style="background-color:#274C59;border:none" data-animation="fadeInUp" data-animation-delay="900">Register</button>
                             </div>
                           </div>
-                          <div class="row text-center randtext" style="background-color:#F0565E;color:#fff;padding:10% 20%;" data-animation = "fadeIn" data-animation-delay= "300">
-                            In the month of February, hundreds of developers and designers collaborate to code, develop and deploy innovative solutions to real life challenges.
-                          </div>
-                          <div class="row text-center" style="background-color:#fff;height:45%;padding: 2% 10%;">
-                            <div class="col-xs-4 boxs">
-                              <div class=" bes row" data-animation = "zoomIn" data-animation-delay = "1000">
-                                100
-                              </div>
-                              <div class="row text-center abcd"  data-animation = "slideInLeft" data-animation-delay = "200">
-                                Teams
-                              </div>
+
+                          <div class="row text-center" style="background-color:#F0F1F2;height:45%;padding:0;">
+                            <div  class="col-md-6 randtext" style="color:#1A323B;padding:10% 4%;padding-bottom:0;" data-animation = "fadeIn" data-animation-delay= "1200">
+                              "We invite leading professionals from industry to talk about emerging technology, scaling products, deploying innovation and building the future."
                             </div>
-                            <div class="col-xs-4 boxs">
-                              <div class=" bes row"  data-animation = "zoomIn" data-animation-delay = "1000" >
-                                24
-                              </div>
-                              <div class="row text-right abcd" style= "text-align:center" data-animation = "slideInRight" data-animation-delay = "200">
-                                Hours
-                              </div>
-                            </div>
-                            <div class="col-xs-4 boxs">
-                              <div class=" bes row"  data-animation = "zoomIn" data-animation-delay = "1000" >
-                                1
-                              </div>
-                              <div class="row text-right text-center abcd"  data-animation = "slideInRight" data-animation-delay = "200">
-                                 Champion
-                              </div>
+                            <div class="col-md-6" style="color:#1A323B;padding:10% 4%;font-size:3em;font-family:'Oswald'" data-animation = "fadeIn" data-animation-delay= "1200">
+                              <span style="color:#F0565E">1000+</span> Participants
                             </div>
                           </div>
 
@@ -375,6 +361,7 @@
         theme.onResize();
         $box = $('.boxs');
         $boxWith = $box.width();
+
         $('.boxs .bes').css('font-size',$boxWith/3);
 
       });
