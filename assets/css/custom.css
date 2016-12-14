@@ -24,3 +24,11 @@
 		height: 83px !important;
 	}
 }
+@media (max-width: 1023px) {
+	.repbutton {
+		display: none !important;
+	}
+	#ambassador {
+		display: none !important;
+	}
+}
