@@ -1,5 +1,7 @@
 //todo:
 
 1. subscribe connect to database
-2. team.html
-3. drop us a line form connect to database
+2. drop us a line form connect to database
+3. team.html
+4. codewar.html, finquest.html, hackdtu.html, quedar.html -- add content
+5. clean the code
