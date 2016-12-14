@@ -899,13 +899,13 @@ textarea {
 .sf-menu a {color: #ffffff;}
 .sf-menu a:hover {color: #ffffff;}
 .sf-menu li:hover,
-.sf-menu li.sfHover {}
-.sf-menu li.active {background-color: rgba(13, 29, 49, 0.30);}
+.sf-menu li.sfHover {background-color: rgba(13,29,49,0.20);}
+.sf-menu li.active {background-color: rgba(13, 29, 49, 0.50);}
 .sf-menu li.active > a {color: #ffffff; }
 .sf-menu ul {margin-left: 1em;}
 .sf-menu ul ul {margin-left: 0;}
 .sf-menu ul li {background: rgba(129, 134, 140, .8); border-radius: 7px;}
-
+.sf-menu ul li:hover {background: rgba(13, 29, 49, 0.50);}
 /* ARROW DOWN */
 
 .sf-menu.nav > li > a.sf-with-ul, /* bs3 reset */
@@ -2604,6 +2604,11 @@ div.pp_overlay {
 .social-line a.tumblr {background-color: #2C4762;}
 .social-line a.tumblr:before {border-bottom-color: #2C4762;}
 .social-line a.tumblr:after {border-top-color: #2C4762;}
+
+.social-line a.github {background-color: #000;}
+.social-line a.github:before {border-bottom-color: #000;}
+.social-line a.github:after {border-top-color: #000;}
+
 .social-line a.instagram {background-color: #517fa4;}
 .social-line a.instagram:before {border-bottom-color: #517fa4;}
 .social-line a.instagram:after {border-top-color: #517fa4;}

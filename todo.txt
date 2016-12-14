@@ -1,0 +1,6 @@
+//todo:
+
+1. faqs update
+2. subscribe connect to database
+3. team.html
+4. drop us a line form connect to database
