@@ -2,6 +2,9 @@
 
 1. subscribe connect to database
 2. drop us a line form connect to database
-3. update photos and fb links team.html
-4. codewar.html, finquest.html, hackdtu.html, quedar.html -- add content
 5. clean the code
+
+Further adjustments after benchmarks:
+1. Make registrations form before 20 Dec, 2016.
+2. Make rulebooks for events and upload once registrations begin.
+3. After teaser release adjust index.html accordingly.

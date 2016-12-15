@@ -4,6 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 .backdrop {
 	width: 570px !important;
 	height: 165px !important;
@@ -11,10 +12,11 @@
 	right: 0;
 	margin: auto;
 }
+
 @media (max-width: 991px) {
 	.backdrop {
 		width: 428px !important;
-		height: 124px !important;	
+		height: 124px !important;
 	}
 }
 
@@ -24,6 +26,7 @@
 		height: 83px !important;
 	}
 }
+
 @media (max-width: 1023px) {
 	.repbutton {
 		display: none !important;
@@ -31,4 +34,21 @@
 	#ambassador {
 		display: none !important;
 	}
+}
+
+.partners-carousel .row img{
+  border-radius: 5%;
+  margin:5% 1%;
+  border: 2px #999 solid;
+  transition: all 0.2s ease-in;
+}
+.partners-carousel .row img:hover{
+  transform: scale(1.1);
+  transition: all 0.2s ease-in;
+}
+@media only screen and (max-width: 425px) {
+    /* For mobile phones: */
+    .partners-carousel .row img{
+      width: 90%;
+    }
 }

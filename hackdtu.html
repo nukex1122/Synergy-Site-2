@@ -35,15 +35,6 @@
     <link href="assets/css/theme-2.css" rel="stylesheet">
 
     <link type="text/css" media="screen" rel="stylesheet" href="awwwards.css" />
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-88825136-1', 'auto');
-      ga('send', 'pageview');
-    </script>
     <style>
     .abcd{
       font-size: 30pt;
@@ -103,16 +94,20 @@
                 <nav class="navigation closed clearfix">
                     <a href="#" class="menu-toggle btn"><i class="fa fa-bars"></i></a>
                     <ul class="sf-menu nav">
-                        <li><a href="index.html#home">Home</a></li>
-                        <li><a href="index.html#about">About</a></li>
-                        <li><a href="index.html#events">Events</a></li>
-                        <li><a href="index.html#sponsors">Sponsors</a></li>
-                        <li><a href="codewar.html">Code War</a></li>
-                        <li class="active"><a href="hackdtu.html">HackDTU</a></li>
-                        <li><a href="quedar.html">Quedar</a></li>
-                        <li><a href="finquest.html">Finquest</a></li>
-                        <li><a href="index.html#location">Team</a></li>
-                        <li><a href="index.html#location">Location</a></li>
+                      <li><a href="index.html#home">Home</a></li>
+                      <li><a href="index.html#about">About</a></li>
+                      <li class="active"><a href="index.html#events">Events</a>
+                        <ul>
+                          <li><a href="codewar.html">Code War</a></li>
+                          <li><a href="#home">hackDTU</a></li>
+                          <li><a href="quedar.html">Quedar</a></li>
+                          <li><a href="finquest.html">Finquest</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="index.html#sponsors">Sponsors</a></li>
+                      <li><a href="index.html#faq">FAQ</a></li>
+                      <li style="background: rgba(243, 68, 82,0.85);"><a href="index.html#subscribe">Subscribe</a></li>
+                      <li><a href="index.html#location">Contact</a></li>
                     </ul>
                 </nav>
                 <!-- /Navigation -->
@@ -140,7 +135,7 @@
 
                             <div class="titles">
 
-                              <div class="title" data-animation = "lightSpeedIn" data-animation-delay = "200">HACK DTU</div><br />
+                              <div class="title" data-animation = "fadeInDown" data-animation-delay = "200">hackDTU</div><br />
                               <div class= "tagliness" style="font-size:20pt;margin-top:-2%;color:#F0F1F2" data-animation="slideInUp" data-animation-delay = "400">
                                   Create. Conquer.
                               </div>
@@ -184,7 +179,7 @@
 
 
             </section>
-            <div class="row text-center randtext" style="background-color:#F0565E;color:#fff;padding:10% 20%;" data-animation = "fadeIn" data-animation-delay= "300">
+            <div class="row text-center randtext" style="background-color:#F0565E;color:#fff;padding:10% 20%;" data-animation = "slideInLeft" data-animation-delay= "300">
               In the month of February, hundreds of developers and designers collaborate to code, develop and deploy innovative solutions to real life challenges.
             </div>
             <!-- /SLIDER -->
@@ -195,18 +190,18 @@
         <!-- /Content area -->
 
         <!-- FOOTER -->
-        <footer class="footer" style="background-color:#fff">
+        <footer class="footer">
             <div class="footer-meta">
                 <div class="container text-center" style="padding-bottom:5%">
                     <div class="clearfix">
                         <ul class="social-line list-inline">
-                            <li data-animation="flipInY" data-animation-delay="100"><a href="https://twitter.com/SynergyDTU" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li data-animation="flipInY" data-animation-delay="300"><a href="https://www.facebook.com/sddtu/" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li data-animation="flipInY" data-animation-delay="400"><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
-                            <li data-animation="flipInY" data-animation-delay="500"><a href="https://www.instagram.com/sd_dtu/" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li data-animation="fadeIn" data-animation-delay="100"><a target="_blank" href="https://twitter.com/SynergyDTU" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li data-animation="fadeIn" data-animation-delay="200"><a target="_blank" href="https://www.facebook.com/sddtu/" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li data-animation="fadeIn" data-animation-delay="300"><a target="_blank" href="https://www.instagram.com/sd_dtu/" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li data-animation="fadeIn" data-animation-delay="400"><a target="_blank" href="https://www.github.com/sd-dtu/" class="github"><i class="fa fa-github"></i></a></li>
                         </ul>
-                    </div>
-                    <span class="copyright" data-animation="fadeInUp" data-animation-delay="100">&copy; 2016 SD-DTU &#8212; Presenting You Synergy'17 With Passion</span>
+                    </div><span class="copyright" data-animation="fadeIn" data-animation-delay="100">Brought with <i class="fa fa-heart" style="color: red;"></i>  to you by</span><br><br>
+                    <span class="copyright" data-animation="fadeIn" data-animation-delay="200">&copy; 2016 | <a href="http://sddtu.org/" target="_blank">Software Developers, Delhi Technological University</a></span>
                 </div>
             </div>
         </footer>
@@ -243,7 +238,15 @@
   <!--[if (gte IE 9)|!(IE)]><!-->
   <script src="assets/plugins/jquery.cookie.js"></script>
   <!--<![endif]-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+    ga('create', 'UA-88825136-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 
   <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
