@@ -271,7 +271,7 @@ var themeConfig = {
         });
 
 		//
-		
+
         var themeConfigReset = this.container.find('ul[data-type=reset]');
         var themeResetLink = $('<li />').append(
             $('<a />')
@@ -307,7 +307,7 @@ var themeConfig = {
         themeConfigHalloween.append(themeHalloweenLink);
 
 		//
-		
+
 		var themeConfigHalloween = this.container.find('select[data-type=halloween]');
         var themeHalloweenLink = //$('<li />').append(
                 $('<option />')
@@ -316,7 +316,7 @@ var themeConfig = {
         //)
         ;
 		themeConfigHalloween.append(themeHalloweenLink);
-        
+
         var themeChristmasLink = //$('<li />').append(
                 $('<option />')
                 .attr('value', 'http://eazzy.me/html/imevent-christmas/')
@@ -324,7 +324,7 @@ var themeConfig = {
         //)
         ;
 		themeConfigHalloween.append(themeChristmasLink);
-        
+
         var themeNewYearLink = //$('<li />').append(
                 $('<option />')
                 .attr('value', 'http://eazzy.me/html/imevent-new-year/')
@@ -332,7 +332,7 @@ var themeConfig = {
         //)
         ;
 		themeConfigHalloween.append(themeNewYearLink);
-        
+
         var themeThanksgivingLink = //$('<li />').append(
                 $('<option />')
                 .attr('value', 'http://eazzy.me/html/imevent-thanksgiving/')
@@ -389,7 +389,7 @@ var themeConfig = {
                 jQuery('.buy-theme-link').css('display','none');
             }
         });
-        
+
         //
 
     },

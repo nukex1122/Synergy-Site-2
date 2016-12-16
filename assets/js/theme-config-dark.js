@@ -271,7 +271,7 @@ var themeConfig = {
         });
 
 		//
-		
+
         var themeConfigReset = this.container.find('ul[data-type=reset]');
         var themeResetLink = $('<li />').append(
             $('<a />')
@@ -389,7 +389,7 @@ var themeConfig = {
                 jQuery('.buy-theme-link').css('display','none');
             }
         });
-        
+
         //
 
     },

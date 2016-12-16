@@ -1,8 +1,6 @@
 //todo:
 
-1. subscribe connect to database
-2. drop us a line form connect to database
-5. clean the code on branch gh-pages
+1. add seo content
 
 Further adjustments after benchmarks:
 1. Make registrations form before 20 Dec, 2016.
