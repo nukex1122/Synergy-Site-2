@@ -1,8 +1,4 @@
 //todo:
 
-1. add seo content
-
-Further adjustments after benchmarks:
 1. Make registrations form before 20 Dec, 2016.
 2. Make rulebooks for events and upload once registrations begin.
-3. After teaser release adjust index.html accordingly.
