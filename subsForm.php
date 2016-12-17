@@ -3,10 +3,10 @@
 function Connect()
 {
   // change here with new db host, user, pass and db name
- $dbhost = "localhost";
- $dbuser = "root";
- $dbpass = "";
- $dbname = "testing";
+ $dbhost = "192.185.129.7";
+ $dbuser = "sddtulhr_synergy";
+ $dbpass = "hackathon";
+ $dbname = "sddtulhr_synergy";
 
  // Create connection
  $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname) or die($conn->connect_error);
@@ -20,7 +20,7 @@ $name    = $conn->real_escape_string($_POST['u_name']);
 $email   = $conn->real_escape_string($_POST['u_email']);
 $phone = $conn->real_escape_string($_POST['u_phone']);
 // change here with new table name
-$query   = "INSERT into test (name,email,message) VALUES('" . $name . "','" . $email . "','" . $phone . "')";
+$query   = "INSERT into subs (name,email,phone) VALUES('" . $name . "','" . $email . "','" . $phone . "')";
 $success = $conn->query($query);
 
 if (!$success) {
@@ -28,7 +28,7 @@ if (!$success) {
 
 }
 // change here with new host location
-header('Location: http://localhost/Synergy-Site-2/index.html#subsSuccess');
+header('Location: http://synergy.sddtu.org/index.html#subsSuccess');
 $conn->close();
 
 ?>
