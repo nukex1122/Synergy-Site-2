@@ -52,3 +52,11 @@
       width: 90%;
     }
 }
+.modalMob {
+   padding-top: 10%;
+}
+@media (max-width: 1024px) {
+  .modalMob {
+    padding-top: 35%;
+  }
+}
