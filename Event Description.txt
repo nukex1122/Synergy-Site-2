@@ -1,0 +1,82 @@
+Events:
+	Finquest
+	Code War
+	hackDTU
+	Quedar
+
+What to write in Description?
+	Description
+	Date
+	Team Size
+	Rules
+	Event Heads
+
+Finquest:
+	DESCRIPTION:
+		Finquest is an online stock market challenge where participants create and manage their own portfolio and compete with other players in a risk-free environment, a real-time trading simulation platform the way it happens in the real world.
+	REGISTRATION:
+		Opens on 20 December 2017 and closes on 1 February 2017. After successful registration, all participants will be emailed their login credentials which they can use on finquest.sddtu.org to play the challenge.
+	DATE:
+		5-6 February 2017
+	TEAM SIZE:
+		Individual Participation
+	RULES:
+		-> You cannot discuss strategy, suggestions or tips with other participants.
+		-> Trading hours of the virtual market will be from 7:00 PM (IST) to 11:59 PM (IST) on both days.
+		-> Further rules regarding the market will be disclosed at 6:30 PM (IST) on 5 February 2017 on web portal.
+		-> The positions on the leaderboard will be used for determining prizes and awards.
+		-> Please comply with all instructions from Finquest organizers.
+	EVENT HEADS:
+		<INSERT TWO EVENT HEADS>
+
+Code War:
+	DESCRIPTION:
+		Code war is an open arena knockout tournament where hundreds of competitive coders will fight for the ultimate title. Want to see how you compare against other Code Warriors? Feel the heat! Feel the cheer! for this takes place at Open Air Theatre, DTU.
+	REGISTRATION:
+		Opens on 20 December 2017 and closes on 1 February 2017. We can accommodate maximum 300 individuals for the event. After registration, selected participants will be informed via email and given a registration ID which is required on the day of the event. Apply early so that we have more time to assess your application.
+	DATE:
+		10 February 2017
+	TEAM SIZE:
+		Individual Participation
+	RULES:
+		-> The decision of organizers is final for selecting the participants for the event.
+		-> You cannot discuss strategy, suggestions or tips with other participants.
+		-> After the closing of registration, all participants will be divided into groups size of which depends on the number of total participants.
+		-> On the day of the event, each participant will fight with other participants in the group.
+		-> All participants in a group will be required to solve few algorithmic challenges.
+		-> The fastest coder in the group will win the round and proceed to the next round.
+		-> Same procedure till we have the last coder standing who wins the ultimate title.
+		-> The decision of judges is final for determining prizes and awards.
+		-> Please comply with all instructions from Code War organizers.
+	EVENT HEADS:
+		<INSERT TWO EVENT HEADS>
+
+hackDTU:
+	DESCRIPTION:
+		Teams spend the weekend working on innovative software solutions to real-world problems. These projects range in platform and application, including elements of web development, mobile applications, cloud, and more.
+	REGISTRATION:
+		Opens on 20 December 2017 and closes on 1 February 2017. We can accommodate maximum 100 teams (with a maximum of 4 members in each team). After registration, selected teams will be informed via email and given a registration ID which is required on the day of the event. Apply early so that we have more time to assess your application.
+	DATE:
+		10-11 February 2017
+	TEAM SIZE:
+		Maximum 4 members allowed.
+	RULES:
+		-> The decision of organizers is final for selecting the teams for the event.
+		-> You must be at allotted location in DTU to work on a project for submission.
+		-> You cannot work on your project before the event begins.
+		-> You cannot steal another team's source code.
+		-> You cannot discuss strategy, suggestions or tips with other teams.
+		-> The decision of judges is final for determining prizes and awards.
+		-> Please comply with all instructions from hackDTU organizers.
+	EVENT HEADS:
+		<INSERT TWO EVENT HEADS>
+
+Quedar:
+	DESCRIPTION:
+		Quedar is a conference meant for everyone who loves software, ranging from budding developers to industry professionals. Witness the grandeur of top industry professionals and gain the edge over others with the knowledge you'll take with you.
+	REGISTRATION:
+		Opens on 20 December 2017 and closes on 1 February 2017. We can accommodate maximum 600 attendees. After registration, you'll get a confirmation mail with attached event pass. You have to bring printed copy of the pass with you to the event.
+	DATE:
+		12 February 2017
+	EVENT HEADS:
+		<INSERT TWO EVENT HEADS>

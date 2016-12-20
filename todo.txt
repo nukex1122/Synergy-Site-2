@@ -1,4 +1,3 @@
 //todo:
 
-1. Make registrations form before 20 Dec, 2016.
-2. Make rulebooks for events and upload once registrations begin.
+1. Add Event Description to events' pages.
