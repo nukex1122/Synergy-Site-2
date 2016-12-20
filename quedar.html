@@ -78,34 +78,33 @@
     <link href="assets/css/custom.css" rel="stylesheet">
 
     <link href="assets/css/theme-2.css" rel="stylesheet">
+    <style>
+    .abcd{
+      font-size: 30pt;
+    }
+    .randtext{
+      font-size:1.5em
+    }
+    #main-slider .item {min-height: 1300px;}
+    @media only screen and (max-width: 425px) {
+        /* For mobile phones: */
+        .abcd{
+          font-size: 15pt;
+        }
+        .randtext{
+          font-size:1em
+        }
 
-    <link type="text/css" media="screen" rel="stylesheet" href="awwwards.css" />
+        #main-slider .item {min-height: 600px !important;}
+    }
 
+    </style>
     <!--[if lt IE 9]>
     <script src="assets/plugins/iesupport/html5shiv.js"></script>
     <script src="assets/plugins/iesupport/respond.min.js"></script>
     <![endif]-->
-    <style>
-    .tagliness2{
-      letter-spacing: 2px;
-    }
-    .randtext{
-      font-size:1.5em;
-    }
-    @media only screen and (max-width: 760px) {
-        /* For mobile phones: */
-
-        .tagliness2{
-          letter-spacing: normal;
-        }
-        .randtext{
-          font-size:1em;
-        }
-    }
-
-    </style>
 </head>
-<body id="home" class="wide body-light">
+<body id="home" class="wide body-light" style="overflow-x:hidden;">
   <!-- Preloader -->
   <div id="preloader">
       <div id="status">
@@ -176,19 +175,20 @@
                         <div class="caption">
                           <div class="row text-center" style="height:55%;display:flex;	align-items: center;  text-align: center;  justify-content: center;flex-direction: column;">
                             <div id="particles-js"></div>
-                            <br /><br />
-                            <div class="titles">
 
+                            <div class="titles">
 
                               <div class="title" data-animation = "fadeInDown" data-animation-delay = "200">QUEDAR</div><br />
                               <div class= "tagliness" style="font-size:20pt;margin-top:-2%;color:#F0F1F2" data-animation="slideInUp" data-animation-delay = "400">
                                   GAIN THE EDGE
-                              </div><br />
-                              <button name="submit" class="btn btn-theme" style="background-color:#274C59;border:none" data-animation="fadeInUp" data-animation-delay="900">Registrations Opening Soon</button>
+                              </div>
+                              <br />
+                              <a class="btn btn-theme" href="register.html" style="background-color:#274C59;border:none" data-animation="fadeInUp" data-animation-delay="900">Register Now</a>
                             </div>
                           </div>
-                          <div class="row text-center" style="background-color:#F0565E;height:45%;padding: 2% 10%;">
-                            <div  class="randtext" style="color:#fff;padding:5% 20%;" data-animation = "fadeIn" data-animation-delay= "1200">
+
+                          <div class="row text-center" style="background-color:#F0F1F2;height:45%;padding: 2% 10%;">
+                            <div  class="col-md-12 randtext" style="color:#1A323B;padding:4%;padding-bottom:0;" data-animation = "fadeIn" data-animation-delay= "1200">
                               <strong>"Learner Today, Creator Tomorrow."</strong><br><br>
                               We invite leading professionals from industry to talk about emerging technology, scaling products, deploying innovation and building the future.
                             </div>
@@ -202,6 +202,28 @@
 
 
             </section>
+            <div class="row randtext" style="background-color:#F0565E;color:#fff;padding:10% 10%;" data-animation = "slideInLeft" data-animation-delay= "300">
+              <div data-animation="fadeInUp" data-animation-delay="200">
+                <h1>ABOUT THE EVENT</h1>
+                <p style="font-size:20px;">
+                Quedar is a conference meant for everyone who loves software, ranging from budding developers to industry professionals. Witness the grandeur of top industry professionals and gain the edge over others with the knowledge you'll take with you.</p>
+              </div>
+              <div data-animation="fadeInUp" data-animation-delay="200">
+                <h1>DATE</h1>
+                <p style="font-size:20px;">12 February 2017
+                </p>
+              </div>
+              <div data-animation="fadeInUp" data-animation-delay="200">
+                <h1>REGISTRATION</h1>
+                <ul style="font-size:20px;">
+                  <li>Opens on <strong>20 December 2017</strong> and closes on <strong>1 February 2017</strong>.</li>
+                  <li>We can accommodate maximum 600 attendees.</li>
+                  <li>After registration, you'll get a confirmation mail with attached event pass.</li>
+                  <li>You have to bring printed copy of the pass with you to the event.</li>
+                </ul>
+                <a class="btn btn-theme" href="register.html" style="background-color:#274C59;border:none" data-animation="fadeInUp" data-animation-delay="200">Register Now</a>
+              </div>
+            </div>
             <!-- /SLIDER -->
             </div>
 
@@ -259,14 +281,14 @@
   <script src="assets/plugins/jquery.cookie.js"></script>
   <!--<![endif]-->
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-88825136-1', 'auto');
-  ga('send', 'pageview');
-  </script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+    ga('create', 'UA-88825136-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script type="text/javascript">
@@ -407,7 +429,6 @@
         theme.onResize();
         $box = $('.boxs');
         $boxWith = $box.width();
-
         $('.boxs .bes').css('font-size',$boxWith/3);
 
       });
