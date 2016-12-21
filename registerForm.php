@@ -1,5 +1,4 @@
 <?php
-
 function Connect()
 {
 // change here with new db host, user, pass and db name
@@ -7,7 +6,6 @@ function Connect()
  $dbuser = "sddtulhr_synergy";
  $dbpass = "hackathon";
  $dbname = "sddtulhr_synergy";
-
  // Create connection
  $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname) or die($conn->connect_error);
 
@@ -118,9 +116,8 @@ if (!$success) {
     die("Couldn't enter data: ".$conn->error);
     }
 }
-
-// change here with new host location
-header('Location: http://synergy.sddtu.org/#regSuccess');
 $conn->close();
-
 ?>
+<script>
+    window.location = 'http://synergy.sddtu.org/#regSuccess';
+</script>
