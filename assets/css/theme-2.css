@@ -30,6 +30,7 @@
 
 .titles{
   margin: auto;
+  z-index: 9999;
 }
 .abcd{
   font-size: 1.1em;
