@@ -29,6 +29,7 @@
 }
 
 .titles{
+  margin: auto;
 }
 .abcd{
   font-size: 1.1em;
@@ -42,8 +43,16 @@ canvas {
   display: block;
   vertical-align: bottom;
 }
-
-
+.rule-head{
+  font-family: 'Oswald';
+}
+.ruleclass{
+  margin-bottom: 30px;
+}
+.ruleclass > ul > li{
+  margin-bottom: 1%;
+  list-style-type: disc;
+}
 /* ---- particles.js container ---- */
 
 #particles-js {
