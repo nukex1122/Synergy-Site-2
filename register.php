@@ -146,7 +146,7 @@
               <div class="container">
                   <h1 class="section-title">
                       <span style="text-align: center; color:#F34452; font-size:30px;" data-animation="slideInDown" data-animation-delay="100" class="title-inner">
-                        Registerations have been closed for Synergy'17 <br><br>Contact <a href="team.html">Team </a> for details about Onsite Registrations.</small></span>
+                        Registerations have been closed for Synergy'17</span>
                   </h1>
               </div>
           </section>
