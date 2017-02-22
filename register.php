@@ -130,7 +130,7 @@
                       <li><a href="index.html#faq">FAQ</a></li>
                       <li><a href="index.html#subscribe">Subscribe</a></li>
                       <li><a href="index.html#location">Contact</a></li>
-                      <li style="background: rgba(243, 68, 82,0.85);"><a href="register.html">Register</a></li>
+                      <li style="background: rgba(243, 68, 82,0.85);"><a href="register.php">Register</a></li>
                     </ul>
                 </nav>
                 <!-- /Navigation -->
